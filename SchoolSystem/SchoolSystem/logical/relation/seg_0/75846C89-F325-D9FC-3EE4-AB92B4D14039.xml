@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Supervise" directorySegmentName="seg_0" id="75846C89-F325-D9FC-3EE4-AB92B4D14039">
+<createdBy>Filip</createdBy>
+<createdTime>2020-01-16 05:01:25 UTC</createdTime>
+<ownerDesignName>SchoolSystem</ownerDesignName>
+<engineerTo>
+<item key="247E66F3-C36F-32C2-1905-4B026E064DCD" value="true"/>
+</engineerTo>
+<sourcePk>E43C4817-2A48-B603-8477-A62020ABB7FD</sourcePk>
+<targetPk>AC85CCFD-0319-E3C3-FE2A-D61A82B9ED8F</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>81E2C251-E920-DC85-1339-25F0CC82EE73</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F74EC59C-D0AA-360F-F678-908FCCA35995</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

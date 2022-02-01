@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="84BC1411-04BB-05C6-8632-F2196FCF0FEE" name="Subject">
+<createdBy>Filip</createdBy>
+<createdTime>2020-01-16 05:06:44 UTC</createdTime>
+<ownerDesignName>SchoolSystem</ownerDesignName>
+<engineerTo>
+<item key="247E66F3-C36F-32C2-1905-4B026E064DCD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SubjectID" id="FF22B3DD-ADF4-577C-0B9E-6CE7025AF180">
+<createdBy>Filip</createdBy>
+<createdTime>2020-01-16 05:06:58 UTC</createdTime>
+<ownerDesignName>SchoolSystem</ownerDesignName>
+<engineerTo>
+<item key="247E66F3-C36F-32C2-1905-4B026E064DCD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="D8465B59-1022-24C1-4837-3E5FC3EB0476">
+<createdBy>Filip</createdBy>
+<createdTime>2020-01-16 05:07:27 UTC</createdTime>
+<ownerDesignName>SchoolSystem</ownerDesignName>
+<engineerTo>
+<item key="247E66F3-C36F-32C2-1905-4B026E064DCD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Grade" id="504BCA6A-8233-6D98-39F7-13E16F5DC27E">
+<createdBy>Filip</createdBy>
+<createdTime>2020-01-16 05:08:17 UTC</createdTime>
+<ownerDesignName>SchoolSystem</ownerDesignName>
+<engineerTo>
+<item key="247E66F3-C36F-32C2-1905-4B026E064DCD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="YearIntroduced" id="AB2388B2-12D3-8706-AAF8-076028F21358">
+<createdBy>Filip</createdBy>
+<createdTime>2020-01-16 05:08:45 UTC</createdTime>
+<ownerDesignName>SchoolSystem</ownerDesignName>
+<engineerTo>
+<item key="247E66F3-C36F-32C2-1905-4B026E064DCD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2FB44821-4458-3049-7F7B-D49B4EDB304C" name="Subject PK">
+<createdBy>Filip</createdBy>
+<createdTime>2020-01-16 05:07:15 UTC</createdTime>
+<ownerDesignName>SchoolSystem</ownerDesignName>
+<engineerTo>
+<item key="247E66F3-C36F-32C2-1905-4B026E064DCD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FF22B3DD-ADF4-577C-0B9E-6CE7025AF180</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="UniversityDegree" directorySegmentName="seg_0" id="5609407C-16CD-7AA8-193F-CE2107066BD6">
+<createdBy>Filip</createdBy>
+<createdTime>2020-01-16 04:57:48 UTC</createdTime>
+<ownerDesignName>SchoolSystem</ownerDesignName>
+<engineerTo>
+<item key="247E66F3-C36F-32C2-1905-4B026E064DCD" value="true"/>
+</engineerTo>
+<sourcePk>05A9B3C5-6221-1F91-C3D6-C06D719BAE1A</sourcePk>
+<targetPk>9C05AE80-7682-5E82-310A-D2C05F34760A</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>EB40BC5D-62B7-9AA9-7347-19A89AE94FF1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3F75C5AF-3946-AB90-22E0-C7169E8D9C7C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

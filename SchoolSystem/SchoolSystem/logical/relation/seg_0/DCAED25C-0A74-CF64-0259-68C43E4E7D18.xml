@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TeacherSubjectT" directorySegmentName="seg_0" id="DCAED25C-0A74-CF64-0259-68C43E4E7D18">
+<createdBy>Filip</createdBy>
+<createdTime>2020-01-16 05:14:58 UTC</createdTime>
+<ownerDesignName>SchoolSystem</ownerDesignName>
+<engineerTo>
+<item key="247E66F3-C36F-32C2-1905-4B026E064DCD" value="true"/>
+</engineerTo>
+<sourcePk>E43C4817-2A48-B603-8477-A62020ABB7FD</sourcePk>
+<targetPk>8D9CE4EE-6818-4039-BA48-F328E39D0BC8</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>81E2C251-E920-DC85-1339-25F0CC82EE73</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6DEF08DC-03CB-6E31-7C6F-75646716FF4D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>
